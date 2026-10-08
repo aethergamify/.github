@@ -6,7 +6,7 @@
 
 **Verification layer for games.** Titles keep realtime play on their own servers. Aether is the canon for who killed, what dropped, who owns it, and whether that transition was legal.
 
-[Documentation](https://github.com/aethergamify/aethergamify) · [Integrate a game](https://github.com/aethergamify/aether-sidecar) · [On-chain programs](https://github.com/aethergamify/aether-programs) · [L2](https://github.com/aethergamify/aether-l2)
+[Connect your game](https://github.com/aethergamify/aether-docs) · [Hub](https://github.com/aethergamify/aethergamify) · [Sidecar](https://github.com/aethergamify/aether-sidecar) · [Programs](https://github.com/aethergamify/aether-programs) · [L2](https://github.com/aethergamify/aether-l2)
 
 ---
 
@@ -37,6 +37,7 @@ The product is **rejecting an illegal state transition** — not logging whateve
 | Repository | Role |
 |------------|------|
 | **[aethergamify](https://github.com/aethergamify/aethergamify)** | Hub: architecture, verification model, map of everything |
+| **[aether-docs](https://github.com/aethergamify/aether-docs)** | How to connect a title: contracts, L3, agent playbook |
 | **[aether-l2](https://github.com/aethergamify/aether-l2)** | Permissioned SVM and economy kernel |
 | **[aether-programs](https://github.com/aethergamify/aether-programs)** | Game programs, rulesets, tests, replay |
 | **[aether-sidecar](https://github.com/aethergamify/aether-sidecar)** | L3 next to **your** game server |
@@ -52,4 +53,4 @@ The product is **rejecting an illegal state transition** — not logging whateve
 | Session, matchmaking | Caps, craft, transfer policy |
 | “This action happened” | Who killed, what dropped, who owns it |
 
-Start here: **[hub documentation](https://github.com/aethergamify/aethergamify)** → [sidecar integration](https://github.com/aethergamify/aether-sidecar/blob/main/docs/integration.md).
+Start here: **[aether-docs](https://github.com/aethergamify/aether-docs)** (studio + agent handbook).
